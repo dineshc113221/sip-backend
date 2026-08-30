@@ -1,0 +1,244 @@
+# Default values for helm-chart-deployment.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: asx-jfux-docker.artifactrepo.kenvue.com/asx-jfux-docker/rdx-sip-bs-ms
+  pullPolicy: Always
+  tag: prod-20260225064606 # Change this to your specific image tag ..
+imagePullSecrets:
+  - name: sip-nexus-cred-new
+nameOverride: ''
+fullnameOverride: ''
+
+serviceAccount:
+  # Specifies whether a service account should be created
+  create: true
+  # Automatically mount a ServiceAccount's API credentials?
+  automount: true
+  # Annotations to add to the service account
+  annotations: {}
+  # The name of the service account to use.
+  # If not set and create is true, a name is generated using the fullname template
+  name: ''
+
+podAnnotations:
+  prometheus.io/scheme: 'http'
+  prometheus.io/scrape: 'true'
+  prometheus.io/port: '3000' # application port
+  prometheus.io/path: '/observability/metrics'
+podLabels: {}
+
+podSecurityContext:
+  {}
+  # fsGroup: 2000
+
+securityContext:
+  {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
+
+service:
+  name: sipdev-app
+  type: ClusterIP
+  port: 3000
+  selector:
+    app: sip-bs-ms
+
+ingress:
+  enabled: false
+  className: 'sip-ingress'
+  annotations:
+    {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - host: sipdev.kenvue.com
+      paths:
+        - path: /api
+          pathType: ImplementationSpecific
+  tls: []
+
+resources:
+  {}
+  # We usually recommend not to specify default resources and to leave this as a conscious
+  # choice for the user. This also increases chances charts run on environments with little
+  # resources, such as Minikube. If you do want to specify resources, uncomment the following
+  # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  # limits:
+  #   cpu: 100m
+  #   memory: 128Mi
+  # requests:
+  #   cpu: 100m
+  #   memory: 128Mi
+
+  #livenessProbe:
+  #httpGet:
+  #path: /formula/formula-details/FML_JNJ93001278
+  #port: 3000
+  #readinessProbe:
+  #httpGet:
+  #path: /formula/formula-details/FML_JNJ93001278
+  #port: 3000
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80
+
+env:
+  - name: REDIRECT_URI
+    key: REDIRECT_URI
+  - name: APPNAME
+    key: APPNAME
+  - name: MS_CLIENT_ID
+    key: MS_CLIENT_ID
+  - name: TENANT_ID
+    key: TENANT_ID
+  - name: AUTHORITY
+    key: AUTHORITY
+  - name: PORT
+    key: PORT
+  - name: ENV_NAME
+    key: ENV_NAME
+  - name: BASE_URL
+    key: BASE_URL
+  - name: CORS_ORIGIN
+    key: CORS_ORIGIN
+  - name: SECRET_KEY
+    key: SECRET_KEY
+  - name: AWS_SECRET_KEY
+    key: AWS_SECRET_KEY
+  - name: AWS_ACCESS_KEY
+    key: AWS_ACCESS_KEY
+  - name: AWS_REGION
+    key: AWS_REGION
+  - name: SPICE_COMPONENT_FUNCTION
+    key: SPICE_COMPONENT_FUNCTION
+  - name: SPICE_COMPONENT_FUNCTION_URL
+    key: SPICE_COMPONENT_FUNCTION_URL
+  - name: MAIN_DB_URL
+    key: MAIN_DB_URL
+  - name: FML_CONSUMER_QUERY_SIP_COMPOSITION
+    key: FML_CONSUMER_QUERY_SIP_COMPOSITION
+  - name: KAFKA_GROUP_ID
+    key: KAFKA_GROUP_ID
+  - name: IS_KAFKA_TRIGGERED
+    key: IS_KAFKA_TRIGGERED
+  - name: KAFKA_USERNAME
+    key: KAFKA_USERNAME
+  - name: KAFKA_PASSWORD
+    key: KAFKA_PASSWORD
+  - name: KAFKA_BROKERS
+    key: KAFKA_BROKERS
+  - name: RAW_MS_API_BASE_URL
+    key: RAW_MS_API_BASE_URL
+  - name: FML_MS_API_BASE_URL
+    key: FML_MS_API_BASE_URL
+  - name: NODE_TLS_REJECT_UNAUTHORIZED
+    key: NODE_TLS_REJECT_UNAUTHORIZED
+  - name: DISTRIBUTION
+    key: DISTRIBUTION
+  - name: FORMULA_EOL
+    key: FORMULA_EOL
+  - name: RAW_MATERIAL
+    key: RAW_MATERIAL
+  - name: PACK_PRODUCTION
+    key: PACK_PRODUCTION
+  - name: PACKAGING_EOL
+    key: PACKAGING_EOL
+  - name: USE_PHASE
+    key: USE_PHASE
+  - name: MANUFACTURING
+    key: MANUFACTURING
+  - name: TOTAL_LCA
+    key: TOTAL_LCA
+  - name: PRECAL_RAW
+    key: PRECAL_RAW
+  - name: SUSTAINABLE_RECYCLE_READY
+    key: SUSTAINABLE_RECYCLE_READY
+  - name: SUSTAINABLE_PCR_CONTENT
+    key: SUSTAINABLE_PCR_CONTENT
+  - name: SUSTAINABLE_MATERIAL_EFFICIENCY
+    key: SUSTAINABLE_MATERIAL_EFFICIENCY
+  - name: SUSTAINABLE_RECYCLABILITY_DISRUPTORS
+    key: SUSTAINABLE_RECYCLABILITY_DISRUPTORS
+  - name: SUSTAINABLE_TOTAL_ROLLUP
+    key: SUSTAINABLE_TOTAL_ROLLUP
+  - name: RENEWABLE_FEEDSTOCK_ORIGIN
+    key: RENEWABLE_FEEDSTOCK_ORIGIN
+  - name: WATCHLIST
+    key: WATCHLIST
+  - name: GAIA_SCORE
+    key: GAIA_SCORE
+  - name: GREEN_CHEMISTRY_ROLLUP
+    key: GREEN_CHEMISTRY_ROLLUP
+  - name: API_PORT
+    key: API_PORT
+  - name: SUPPORT_EMAIL
+    key: SUPPORT_EMAIL
+  - name: LOG_LEVEL
+    key: LOG_LEVEL
+  - name: SVC_NAME
+    key: SVC_NAME
+  - name: SVC_PWD
+    key: SVC_PWD
+  - name: CONSTITUENT_MS_API_BASE_URL
+    key: CONSTITUENT_MS_API_BASE_URL
+  - name: DB_URI
+    key: DB_URI
+  - name: DB_NAME
+    key: DB_NAME
+  - name: DB_PORT
+    key: DB_PORT
+  - name: DB_USERNAME
+    key: DB_USERNAME
+  - name: DB_PASSWORD
+    key: DB_PASSWORD
+  - name: TEST_EMAIL
+    key: TEST_EMAIL
+  - name: TEST_EMAIL2
+    key: TEST_EMAIL2
+  - name: METRICS_ENABLED
+    key: METRICS_ENABLED
+  - name: AWS_S3_BUCKET_NAME
+    key: AWS_S3_BUCKET_NAME
+  - name: AUDIT_TABLE
+    key: AUDIT_TABLE
+  - name: LAMBDA_Packaging_Production_1
+    key: LAMBDA_Packaging_Production_1
+  - name: LAMBDA_Distribution_2
+    key: LAMBDA_Distribution_2
+  - name: LAMBDA_Packaging_EOL_3
+    key: LAMBDA_Packaging_EOL_3
+# Additional volumes on the output Deployment definition.
+volumes:
+  - name: sip-dev-configmap
+    configMap:
+      name: sip-dev-config
+# - name: foo
+#   secret:
+#     secretName: mysecret
+#     optional: false
+# Additional volumeMounts on the output Deployment definition.
+volumeMounts:
+  - name: sip-dev-configmap
+    mountPath: '/etc/sipconfig'
+    readOnly: true
+# - name: foo
+#   mountPath: "/etc/foo"
+#   readOnly: true
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

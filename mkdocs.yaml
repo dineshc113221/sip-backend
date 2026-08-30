@@ -1,0 +1,13 @@
+site_name: Sustainable Innovation Profiler - BS MS
+site_description: Sustainable Innovation Profiler - BS MS
+
+# Test with: npx @techdocs/cli serve
+plugins:
+ - techdocs-core
+
+markdown_extensions:
+  - attr_list
+
+nav:
+  - Introduction: 'index.md'
+  - Changelog: 'CHANGELOG.md'

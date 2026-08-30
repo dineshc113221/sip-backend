@@ -1,0 +1,97 @@
+[{
+    "_id": {
+      "$oid": "66f2f95206a36e538ff6710d"
+    },
+    "details": {
+      "rawMaterialID": "FML2057662A",
+      "objectKey": "FML2057662A-001",
+      "tradeName": "",
+      "description" : "test",
+      "segment" : [{
+        "id" : "test",
+        "value" : "test"
+      }],
+      "subSegment":[{
+        "id" : "test",
+        "value" : "test"
+      }],
+      "status": "",
+      "RMCStatus": "",
+      "primaryFunction": "",
+      "specNumber": "",
+      "origin": "",
+      "approvedRegion": [
+        {
+          "region": "APAC",
+          "approvalDate": "",
+          "status": ""
+        },
+        {
+          "region": "EMEA",
+          "approvalDate": "",
+          "status": ""
+        },
+        {
+          "region": "LATAM",
+          "approvalDate": "",
+          "status": ""
+        },
+        {
+          "region": "NA",
+          "approvalDate": "",
+          "status": ""
+        }
+      ],
+      "supplier": ""
+    },
+    "compositions":[
+      {
+        "rawMaterialId": "RAW92673544",
+        "tradeName": "Neutral Ethanol - For Self Care Use Only",
+        "status": "Commercial",
+        "rmcStatus": "RaMPS Restricted",
+        "EUINCIName": "TBD",
+        "USINCIName": "TBD",
+        "specNumber": "RM-0002452",
+        "cas": "64-17-5",
+        "material_PCT": "12.432433",
+        "percentage": "12.432433"
+      },
+      {
+        "rawMaterialId": "RAW92657047",
+        "tradeName": "620009 Menthol L Pellets -For self care use only",
+        "status": "Commercial",
+        "rmcStatus": "RaMPS Restricted",
+        "EUINCIName": "TBD",
+        "USINCIName": "TBD",
+        "specNumber": "RM-0002423",
+        "cas": "89-78-1;1490-04-6;2216-51-5;15356-70-4",
+        "material_PCT": "21.945946",
+        "percentage": "21.945946"
+      },
+      {
+        "rawMaterialId": "RAW92676281",
+        "tradeName": "Mint Scent 100000149- For Self Care Use Only",
+        "status": "Commercial",
+        "rmcStatus": "RaMPS Restricted",
+        "EUINCIName": "TBD",
+        "USINCIName": "TBD",
+        "specNumber": "RM-0002395",
+        "cas": "NA-CON004527",
+        "material_PCT": "29.297297",
+        "percentage": "29.297297"
+      },
+      {
+        "rawMaterialId": "RAW92672406",
+        "tradeName": "Lemon Flavour BRO00002-For Self Care Use Only",
+        "status": "Commercial",
+        "rmcStatus": "RaMPS Restricted",
+        "EUINCIName": "TBD",
+        "USINCIName": "TBD",
+        "specNumber": "RM-0002408",
+        "cas": "NA-CON004527",
+        "material_PCT": "36.324324",
+        "percentage": "36.324324"
+      }
+    ]
+  }]

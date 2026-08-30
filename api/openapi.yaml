@@ -1,0 +1,83 @@
+openapi: 3.1.0
+info:
+  title: Sustainable Innovation Profiler - BS MS
+  version: 1.0.0
+  description: Sustainable Innovation Profiler - BS MS
+  contact: 
+    name: user:default/apatil35
+  license:
+    name: Unlicensed
+    url: https://www.kenvue.com
+security: []
+servers:
+  - url: http://localhost/api
+paths:
+  /health:
+    get:
+      summary: Retrieve the api health
+      description: Retrieve the api health
+      operationId: getHealth
+      tags:
+        - Health Check
+      parameters: []
+      responses:
+        '200':
+          description: A JSON object with the healthy status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthStatus'
+        '401':
+          description: Unauthorized error
+        '500':
+          description: Unexpected error
+  /example:
+    get:
+      summary: Returns a predetermined value for testing
+      description: Returns a predetermined value for testing
+      operationId: getExample
+      tags:
+        - Example
+      parameters: []
+      responses:
+        '200':
+          description: A JSON object of the status message
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Example'
+        '401':
+          description: Unauthorized error
+        '500':
+          description: Unexpected error
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: integer
+          enum:
+            - 200
+            - 401
+            - 500
+        message:
+          type: string
+      example:
+        status: 200
+        message: healthy
+    Example:
+      type: object
+      properties:
+        status:
+          type: integer
+          enum:
+            - 200
+            - 201
+            - 401
+            - 500
+        message:
+          type: string
+      example:
+        status: 200
+        message: hello

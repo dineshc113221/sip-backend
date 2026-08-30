@@ -1,0 +1,29 @@
+process.env.PORT = "process.env.PORT" ;
+process.env.ENV_NAME = "process.env.ENV_NAME";
+process.env.DB_URL = "process.env.DB_URL";
+process.env.DB_NAMES = "process.env.DB_NAMES";
+process.env.BASE_URL = "process.env.BASE_URL";
+process.env.CORS_ORIGIN = "process.env.CORS_ORIGIN";
+process.env.AWS_SECRET_KEY = "process.env.AWS_SECRET_KEY" ;
+process.env.AWS_ACCESS_KEY = "process.env.AWS_ACCESS_KEY";
+process.env.AWS_REGION = "process.env.AWS_REGION";
+process.env.SPICE_COMPONENT_FUNCTION = "process.env.SPICE_COMPONENT_FUNCTION";
+process.env.SPICE_COMPONENT_FUNCTION_URL = "process.env.SPICE_COMPONENT_FUNCTION_URL";
+process.env.MAIN_DB_URL = "mongodb://SIP-Dev-SystemAccount:pass@sip-dev-pl-0.eovja.mongodb.net/sip?connectTimeoutMS=15000&retryWrites=true&w=majority";
+process.env.SECRET_KEY = "process.env.SECRET_KEY";
+process.env.DISTRIBUTION = "process.env.DISTRIBUTION";
+process.env.FORMULA_EOL = "process.env.FORMULA_EOL";
+process.env.RAW_MATERIAL = "process.env.RAW_MATERIAL";
+process.env.PACK_PRODUCTION = "process.env.PACK_PRODUCTION";
+process.env.PACKAGING_EOL = "process.env.PACKAGING_EOL";
+process.env.USE_PHASE = "process.env.USE_PHASE";
+process.env.MANUFACTURING = "process.env.MANUFACTURING";
+process.env.TOTAL_LCA = "process.env.TOTAL_LCA";
+process.env.PRECAL_RAW = "process.env.PRECAL_RAW";
+process.env.SUSTAINABLE_RECYCLE_READY = "process.env.SUSTAINABLE_RECYCLE_READY";
+process.env.SUSTAINABLE_PCR_CONTENT = "process.env.SUSTAINABLE_PCR_CONTENT";
+process.env.SUSTAINABLE_MATERIAL_EFFICIENCY = "process.env.SUSTAINABLE_MATERIAL_EFFICIENCY";
+process.env.SUSTAINABLE_RECYCLABILITY_DISRUPTORS =
+"process.env.SUSTAINABLE_RECYCLABILITY_DISRUPTORS";
+process.env.SUPPORT_EMAIL = "process.env.SUPPORT_EMAIL";
+process.env.SUSTAINABLE_TOTAL_ROLLUP ="process.env.SUSTAINABLE_TOTAL_ROLLUP"

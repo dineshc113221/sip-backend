@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+  node:
+    image: node-express-api-template
+    container_name: node-express-api-template
+    build: .
+    ports:
+      - ${PORT:-83}:83
+    restart: always
+    environment:
+      PORT: 83
+    deploy:
+      mode: replicated
+      replicas: 1
+      endpoint_mode: vip
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 128M
+        reservations:
+          cpus: '0.25'
+          memory: 64M

@@ -1,0 +1,50 @@
+application_integration:
+  Disable_CD: 'False'
+  Deploy_Custom_Artifact: 'False'
+  Enable_Semantic_Versioning: 'True'
+  dockerImage: 'ts-docker.artifactrepo.kenvue.com/ts-docker/node-buildagent:22.19'
+  teamsWebhook: ''
+  BRANCHING_STRATEGY: 'trunk-based'
+  PUBLISH_FEATURE_ARTIFACTS: 'false'
+  buildType: 'Test'
+  USE_NPMRC: 'true'
+  USE_APP_NPMRC_FILE: 'true'
+  USE_BUILD_ENV_FILE: 'false'
+  NEXUS_DOCKER_BASE_IMAGE_ARTIFACTORY_REPO: 'ts-docker'
+
+application_deployment:
+  dev:
+    NOTE: The Chart is picked from the source code.
+    DEPLOY_LIB_BRANCH_NAME: 'dev'
+    DEPLOY_LIB_MSP_GITPROVIDER: "github"
+    DEPLOY_LIB_MSP_REPO_CONFIG_FILE_PATH: 'dev/sip-namespace/rdx-sip-bs-ms/values.yaml'
+    DEPLOY_LIB_MSP_REPO_URL: 'https://github.com/RND-JFUX/rdx-sip-msp-config.git'
+    DEPLOY_LIB_MSP_REPO_FEATURE_BRANCH_NAME: 'staging'
+    DEPLOY_LIB_MSP_REPO_PROJECT_NAME: 'RND-JFUX'
+    DEPLOY_LIB_MSP_REPO_REPOSITORY_SLUG: 'rdx-sip-msp-config'
+    DEPLOY_LIB_MSP_REQUEST_TYPE: 'pr_merge' # acceptable values are :  pr_merge (or) pr_createonly
+    DEPLOY_LIB: "True"
+
+  qa:
+    NOTE: The Chart is picked from the source code.
+    DEPLOY_LIB_BRANCH_NAME: 'qa'
+    DEPLOY_LIB_MSP_GITPROVIDER: "github"
+    DEPLOY_LIB_MSP_REPO_CONFIG_FILE_PATH: 'qa/sip-namespace/rdx-sip-bs-ms/values.yaml'
+    DEPLOY_LIB_MSP_REPO_URL: 'https://github.com/RND-JFUX/rdx-sip-msp-config.git'
+    DEPLOY_LIB_MSP_REPO_FEATURE_BRANCH_NAME: 'staging'
+    DEPLOY_LIB_MSP_REPO_PROJECT_NAME: 'RND-JFUX'
+    DEPLOY_LIB_MSP_REPO_REPOSITORY_SLUG: 'rdx-sip-msp-config'
+    DEPLOY_LIB_MSP_REQUEST_TYPE: 'pr_merge' # acceptable values are :  pr_merge (or) pr_createonly
+    DEPLOY_LIB: "True"
+
+  prod:
+    NOTE: The Chart is picked from the source code.
+    DEPLOY_LIB_BRANCH_NAME: 'prod'
+    DEPLOY_LIB_MSP_GITPROVIDER: "github"
+    DEPLOY_LIB_MSP_REPO_CONFIG_FILE_PATH: 'prod/sip-namespace/rdx-sip-bs-ms/values.yaml'
+    DEPLOY_LIB_MSP_REPO_URL: 'https://github.com/RND-JFUX/rdx-sip-msp-config.git'
+    DEPLOY_LIB_MSP_REPO_FEATURE_BRANCH_NAME: 'staging'
+    DEPLOY_LIB_MSP_REPO_PROJECT_NAME: 'RND-JFUX'
+    DEPLOY_LIB_MSP_REPO_REPOSITORY_SLUG: 'rdx-sip-msp-config'
+    DEPLOY_LIB_MSP_REQUEST_TYPE: 'pr_merge' # acceptable values are :  pr_merge (or) pr_createonly
+    DEPLOY_LIB: "True"

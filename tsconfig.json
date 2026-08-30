@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                                /* Set to ES2020 for modern JavaScript features. */
+    "module": "ESNext",                                /* Use ESNext for modern modules. */
+    "useDefineForClassFields": true,                   /* Use defined class fields. */
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],          /* Update to ES2020 libraries, DOM is optional if not used. */
+    "moduleResolution": "node",                        /* Resolve modules in node fashion. */
+    "skipLibCheck": true,                              /* Skip type checking of .d.ts files. */
+    "esModuleInterop": true,                           /* Enable interoperability with commonjs modules. */
+    // "forceConsistentCasingInFileNames": true,          /* Ensure consistent casing in imports. */
+    "allowSyntheticDefaultImports": true,              /* Allow default imports from modules that do not have them. */
+    "resolveJsonModule": true,                         /* Allow importing JSON files. */
+    "isolatedModules": true,                           /* Improve build speed for isolated files. */
+    "strict": false,                                    /* Enable all strict type-checking options. */
+    "noUnusedLocals": true,                            /* Report errors on unused locals. */
+    "noUnusedParameters": true,                        /* Report errors on unused parameters. */
+    "noFallthroughCasesInSwitch": true,                /* Disallow fallthrough cases in switch statements. */
+    "outDir": "./dist",                                /* Output directory for compiled files. */
+    "allowJs": true,                                   /* Allow JS files to be compiled. */
+    // "noEmit": false,                             /* Enable emitting compiled files. */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "ts-node": {
+    "esm": true // Enable ESM in ts-node
+  }
+}

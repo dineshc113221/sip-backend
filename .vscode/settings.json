@@ -1,0 +1,4 @@
+{
+  "npm.exclude": ["**/skeleton/build", "**/build"],
+  "npm.scriptExplorerExclude": ["start", "local"]
+}

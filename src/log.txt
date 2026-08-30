@@ -1,0 +1,6 @@
+[2024-12-20 04:00:00] [sip-api] [INFO] Initialized MongoDB model successfully. {"stepName":"GaiaController"}
+[2024-12-20 04:00:01] [sip-api] [ERROR] Error during data extraction or insertion from Oracle DB to MongoDB: NJS-125: "connectString" cannot be empty or undefined. Bequeath connections are not supported in Thin mode {"stepName":"GaiaController","eventId":{"code":"NJS-125"}}
+[2024-12-20 04:00:02] [sip-api] [ERROR] Failed to initialize Gaia data extraction or write to MongoDB: No recipients defined {"stepName":"GaiaController","eventId":{"code":"EENVELOPE","command":"API"}}
+[2025-01-03 04:00:00] [sip-api] [INFO] Initialized MongoDB model successfully. {"stepName":"GaiaController"}
+[2025-01-03 04:00:00] [sip-api] [ERROR] Error during data extraction or insertion from Oracle DB to MongoDB: NJS-125: "connectString" cannot be empty or undefined. Bequeath connections are not supported in Thin mode {"stepName":"GaiaController","eventId":{"code":"NJS-125"}}
+[2025-01-03 04:00:02] [sip-api] [ERROR] Failed to initialize Gaia data extraction or write to MongoDB: No recipients defined {"stepName":"GaiaController","eventId":{"code":"EENVELOPE","command":"API"}}

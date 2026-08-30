@@ -1,0 +1,590 @@
+[
+    {
+      "_id": {
+        "$oid": "66cdc2308a210401767efb59"
+      },
+      "FG_NM": "FG-0048240",
+      "FG_RVSN_NBR": "1",
+      "MATL_NUM": null,
+      "MC_LOC_TXT": "MC-High Wycombe_Buckinghamshire_UK",
+      "SaleZone": "Europe",
+      "SaleCountry": "United Kingdom",
+      "MFG_LOC_TXT": "CP-Springdew_UK",
+      "ProductionZone": "Europe",
+      "ProductionCountry": "United Kingdom",
+      "Input_net_content_min_weight_label": null,
+      "Input_product_content_size_label": null,
+      "Number_Amount_net_content_min_weight_label": null,
+      "Number_Amount_product_content_size_label": null,
+      "Unit_Of_Measure_net_content_min_weight_label": null,
+      "Unit_Of_Measure_product_content_size_label": null,
+      "g_option_error": null,
+      "g_option_number": null,
+      "g_option_unit": null,
+      "ml_option_error": null,
+      "ml_option_number": null,
+      "ml_option_unit": null,
+      "PACKAGING_LVL": [
+        {
+          "PACKAGING_LVL": null,
+          "COMPONENT": [
+            {
+              "CHILD_NM": "PC-0002552",
+              "CHILD_RVSN_NBR": "4",
+              "PC_DESC": null,
+              "PC_STS_CD": null,
+              "PC_STAGE_CD": null,
+              "PC_TEMPL_CD": null,
+              "CMPNT_FORM_CD": null,
+              "COLOR_CD_CLEAN": null,
+              "COLOR_CD_CLEAN_CLEAN": null,
+              "SUP_CTRY_CD": null,
+              "SUP_CTRY_CD_SPICE": null,
+              "CMPNT_WT_VAL": null,
+              "MSR_UOM_TXT": null,
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": null,
+                  "MATL_TYPE_2_TXT": null,
+                  "CMPNT_MATL_CD_SPLIT": null,
+                  "CMPNT_MATL_CD": null,
+                  "MATL_TYPE_2_TXT_SPICE": null,
+                  "CMPNT_MATL_CD_SPICE": null,
+                  "INCOMPLETE_SPICE_MAT_MAP": null,
+                  "CMPNT_SUB_MATL_CD": null,
+                  "CONVERSION_PROCESS_SPICE": null,
+                  "MATL_PCT_VAL": null,
+                  "PCR_CONTENT": null
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-0002708",
+              "CHILD_RVSN_NBR": "3",
+              "PC_DESC": null,
+              "PC_STS_CD": null,
+              "PC_STAGE_CD": null,
+              "PC_TEMPL_CD": null,
+              "CMPNT_FORM_CD": null,
+              "COLOR_CD_CLEAN": null,
+              "COLOR_CD_CLEAN_CLEAN": null,
+              "SUP_CTRY_CD": null,
+              "SUP_CTRY_CD_SPICE": null,
+              "CMPNT_WT_VAL": null,
+              "MSR_UOM_TXT": null,
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": null,
+                  "MATL_TYPE_2_TXT": null,
+                  "CMPNT_MATL_CD_SPLIT": null,
+                  "CMPNT_MATL_CD": null,
+                  "MATL_TYPE_2_TXT_SPICE": null,
+                  "CMPNT_MATL_CD_SPICE": null,
+                  "INCOMPLETE_SPICE_MAT_MAP": null,
+                  "CMPNT_SUB_MATL_CD": null,
+                  "CONVERSION_PROCESS_SPICE": null,
+                  "MATL_PCT_VAL": null,
+                  "PCR_CONTENT": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "PACKAGING_LVL": "Secondary",
+          "COMPONENT": [
+            {
+              "CHILD_NM": "PC-0002669",
+              "CHILD_RVSN_NBR": "2",
+              "PC_DESC": "LEAFLET – 558 x 179 mm - 45 g/m² – White -  folded– tagsert",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Labels / Leaflets / Booklets",
+              "CMPNT_FORM_CD": "Leaflet",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Sweden",
+              "SUP_CTRY_CD_SPICE": "Sweden",
+              "CMPNT_WT_VAL": "4.49",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "Paper",
+                  "CMPNT_MATL_CD_SPLIT": "",
+                  "CMPNT_MATL_CD": "",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": null,
+                  "PCR_CONTENT": null
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-0002703",
+              "CHILD_RVSN_NBR": "2",
+              "PC_DESC": "OTHER CARTON – Large Backboard Card 1 – 308 x 257 – GC1 – Plain",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Folding Cartons",
+              "CMPNT_FORM_CD": "Backcard",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Finland",
+              "SUP_CTRY_CD_SPICE": "Finland",
+              "CMPNT_WT_VAL": "20.5",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": "Offset printing",
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Paper, woodfree, coated",
+                  "MATL_TYPE_2_TXT": "Heat-resistant varnish (UV or water based), Cardboard GC1, Blister varnish (UV or water based)",
+                  "CMPNT_MATL_CD_SPLIT": "Paper",
+                  "CMPNT_MATL_CD": "Paper",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Paper, woodfree, coated",
+                  "INCOMPLETE_SPICE_MAT_MAP": "0",
+                  "CMPNT_SUB_MATL_CD": "PCR",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": "0.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-0002706",
+              "CHILD_RVSN_NBR": "3",
+              "PC_DESC": "871915 Other -FORMING FILM – A-PET 0,6 mm – transparent – 330 mm",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Film / Laminates / Pouch and Bag",
+              "CMPNT_FORM_CD": "Film",
+              "COLOR_CD_CLEAN": "N/A",
+              "COLOR_CD_CLEAN_CLEAN": "Clear (no color)",
+              "SUP_CTRY_CD": "Portugal",
+              "SUP_CTRY_CD_SPICE": "Portugal",
+              "CMPNT_WT_VAL": null,
+              "MSR_UOM_TXT": null,
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "Plastic (APET)",
+                  "CMPNT_MATL_CD_SPLIT": "",
+                  "CMPNT_MATL_CD": "",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "Virgin",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": "100.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-0002657",
+              "CHILD_RVSN_NBR": "2",
+              "PC_DESC": "LABEL Back - 28,5 x 54,3 mm - White - Paper - Nicorette Lozenge 20ct",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Labels / Leaflets / Booklets",
+              "CMPNT_FORM_CD": "Label",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Belgium",
+              "SUP_CTRY_CD_SPICE": "Belgium",
+              "CMPNT_WT_VAL": "0.216",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "Gloss, Permanent water borne, Plastic (PET), Paper, Paper/Plastic",
+                  "CMPNT_MATL_CD_SPLIT": "Mixed/Other",
+                  "CMPNT_MATL_CD": "Mixed/Other",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "PCR",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": "0.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-0002638",
+              "CHILD_RVSN_NBR": "2",
+              "PC_DESC": "LABEL Front - 28,5 x 54,3 mm - White - Paper - Nicorette Lozenge 20ct",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Labels / Leaflets / Booklets",
+              "CMPNT_FORM_CD": "Label",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Belgium",
+              "SUP_CTRY_CD_SPICE": "Belgium",
+              "CMPNT_WT_VAL": "0.224",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "Gloss, Permanent water borne, Matte, Plastic (PET), Paper, Paper/Plastic",
+                  "CMPNT_MATL_CD_SPLIT": "Mixed/Other",
+                  "CMPNT_MATL_CD": "Mixed/Other",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "PCR",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": "0.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-0002704",
+              "CHILD_RVSN_NBR": "4",
+              "PC_DESC": "OTHER CARTON – Large Backboard Card 2 – 308 x 257 – GC1",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Folding Cartons",
+              "CMPNT_FORM_CD": "Backcard",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Finland",
+              "SUP_CTRY_CD_SPICE": "Finland",
+              "CMPNT_WT_VAL": "20.3",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": "Offset printing",
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Paper, woodfree, coated",
+                  "MATL_TYPE_2_TXT": "Heat-resistant varnish (UV or water based), Cardboard GC1, Blister varnish (UV or water based)",
+                  "CMPNT_MATL_CD_SPLIT": "Paper",
+                  "CMPNT_MATL_CD": "Paper",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Paper, woodfree, coated",
+                  "INCOMPLETE_SPICE_MAT_MAP": "0",
+                  "CMPNT_SUB_MATL_CD": "Virgin",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": "100.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "PACKAGING_LVL": "Primary",
+          "COMPONENT": [
+            {
+              "CHILD_NM": "PC-0007439",
+              "CHILD_RVSN_NBR": "3",
+              "PC_DESC": "744016 - Bottom with desiccant - PROD tool - PP - blue - 22 x 36 mm",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Closure",
+              "CMPNT_FORM_CD": "Other - See General Description Comments",
+              "COLOR_CD_CLEAN": "Remafin Blue",
+              "COLOR_CD_CLEAN_CLEAN": "Blue",
+              "SUP_CTRY_CD": "GERMANY",
+              "SUP_CTRY_CD_SPICE": "Germany",
+              "CMPNT_WT_VAL": "2.5",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": "Offset printing",
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "PP (Polypropylene)",
+                  "MATL_TYPE_2_TXT": "Silica gel white, PP, GC2",
+                  "CMPNT_MATL_CD_SPLIT": "PP",
+                  "CMPNT_MATL_CD": "PP",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "PP (Polypropylene)",
+                  "INCOMPLETE_SPICE_MAT_MAP": "0",
+                  "CMPNT_SUB_MATL_CD": "PCR",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": "0.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-059493",
+              "CHILD_RVSN_NBR": "4",
+              "PC_DESC": "744015 Plastic container PROD - 36 x 69 mm- PP - Blue",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Bottles/ Jars",
+              "CMPNT_FORM_CD": "Bottle",
+              "COLOR_CD_CLEAN": "Remafin Blau (Blue)",
+              "COLOR_CD_CLEAN_CLEAN": "Blue",
+              "SUP_CTRY_CD": "GERMANY",
+              "SUP_CTRY_CD_SPICE": "Germany",
+              "CMPNT_WT_VAL": "7.5",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": "Offset printing",
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "PP (Polypropylene)",
+                  "MATL_TYPE_2_TXT": "PP",
+                  "CMPNT_MATL_CD_SPLIT": "PP",
+                  "CMPNT_MATL_CD": "PP",
+                  "MATL_TYPE_2_TXT_SPICE": "PP (Polypropylene)",
+                  "CMPNT_MATL_CD_SPICE": "PP (Polypropylene)",
+                  "INCOMPLETE_SPICE_MAT_MAP": "0",
+                  "CMPNT_SUB_MATL_CD": "PCR",
+                  "CONVERSION_PROCESS_SPICE": "Blow moulding",
+                  "MATL_PCT_VAL": "0.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "PACKAGING_LVL": "Can't Find",
+          "COMPONENT": [
+            {
+              "CHILD_NM": "PC-0006331",
+              "CHILD_RVSN_NBR": "1",
+              "PC_DESC": "Artworks Interface PC specification",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Packaging Component (PC) Generic Doc Centric Template",
+              "CMPNT_FORM_CD": "",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Unassigned",
+              "SUP_CTRY_CD_SPICE": "Unknown",
+              "CMPNT_WT_VAL": null,
+              "MSR_UOM_TXT": null,
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "",
+                  "CMPNT_MATL_CD_SPLIT": "",
+                  "CMPNT_MATL_CD": "",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": null,
+                  "PCR_CONTENT": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "66cdc2308a210401767efb5a"
+      },
+      "FG_NM": "FG-0053213",
+      "FG_RVSN_NBR": "1",
+      "MATL_NUM": null,
+      "MC_LOC_TXT": null,
+      "SaleZone": null,
+      "SaleCountry": null,
+      "MFG_LOC_TXT": null,
+      "ProductionZone": null,
+      "ProductionCountry": null,
+      "Input_net_content_min_weight_label": null,
+      "Input_product_content_size_label": null,
+      "Number_Amount_net_content_min_weight_label": null,
+      "Number_Amount_product_content_size_label": null,
+      "Unit_Of_Measure_net_content_min_weight_label": null,
+      "Unit_Of_Measure_product_content_size_label": null,
+      "g_option_error": null,
+      "g_option_number": null,
+      "g_option_unit": null,
+      "ml_option_error": null,
+      "ml_option_number": null,
+      "ml_option_unit": null,
+      "PACKAGING_LVL": [
+        {
+          "PACKAGING_LVL": "Primary",
+          "COMPONENT": [
+            {
+              "CHILD_NM": "PC-0002972",
+              "CHILD_RVSN_NBR": "4",
+              "PC_DESC": "BOTTLE/SNAP-ON/APOLLO/1000ml/HDPE/ALL COLORS",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Bottles/ Jars",
+              "CMPNT_FORM_CD": "Bottle",
+              "COLOR_CD_CLEAN": "White 1, Purple 1, Pink 1, Peach 1, White 2",
+              "COLOR_CD_CLEAN_CLEAN": "Purple",
+              "SUP_CTRY_CD": "Malaysia",
+              "SUP_CTRY_CD_SPICE": "Malaysia",
+              "CMPNT_WT_VAL": "64.0",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": "Offset printing",
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "HDPE (Polyethylene, high density)",
+                  "MATL_TYPE_2_TXT": "HDPE",
+                  "CMPNT_MATL_CD_SPLIT": "HDPE",
+                  "CMPNT_MATL_CD": "HDPE",
+                  "MATL_TYPE_2_TXT_SPICE": "HDPE (Polyethylene, high density)",
+                  "CMPNT_MATL_CD_SPICE": "HDPE (Polyethylene, high density)",
+                  "INCOMPLETE_SPICE_MAT_MAP": "0",
+                  "CMPNT_SUB_MATL_CD": "PIR",
+                  "CONVERSION_PROCESS_SPICE": "Blow moulding",
+                  "MATL_PCT_VAL": "20.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-057241",
+              "CHILD_RVSN_NBR": "16",
+              "PC_DESC": "PUMP / SNAP-ON / 28 mm NECK (LOTION) / 214 mm DTL / TRANSLUCENT WHITE / FOR APOLLO 1000 mL HDPE BOTTLE",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Pump / Dispenser",
+              "CMPNT_FORM_CD": "Pump",
+              "COLOR_CD_CLEAN": "Translucent White",
+              "COLOR_CD_CLEAN_CLEAN": "White",
+              "SUP_CTRY_CD": "Italy, United States, China, ITALY",
+              "SUP_CTRY_CD_SPICE": "China, Italy, United States",
+              "CMPNT_WT_VAL": "16.8",
+              "MSR_UOM_TXT": "g",
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "POM, LDPE+LLDPE, Stainless Steel, LLDPE, PE, PP, TPO",
+                  "CMPNT_MATL_CD_SPLIT": "",
+                  "CMPNT_MATL_CD": "",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": null,
+                  "PCR_CONTENT": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "PACKAGING_LVL": "Can't Find",
+          "COMPONENT": [
+            {
+              "CHILD_NM": "PC-0001786",
+              "CHILD_RVSN_NBR": "7",
+              "PC_DESC": "Johnson’s Baby Bath Shipper (BMR)",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Packaging Component (PC) Generic Doc Centric Template",
+              "CMPNT_FORM_CD": "",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Malaysia",
+              "SUP_CTRY_CD_SPICE": "Malaysia",
+              "CMPNT_WT_VAL": null,
+              "MSR_UOM_TXT": null,
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "",
+                  "CMPNT_MATL_CD_SPLIT": "",
+                  "CMPNT_MATL_CD": "",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": null,
+                  "PCR_CONTENT": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "PACKAGING_LVL": "Secondary",
+          "COMPONENT": [
+            {
+              "CHILD_NM": "PC-060025",
+              "CHILD_RVSN_NBR": "8",
+              "PC_DESC": "Johnson's Baby Label - Apollo 750ml wash/lotion, 800ml shampoo, and 1000ml wash - APAC",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Labels / Leaflets / Booklets",
+              "CMPNT_FORM_CD": "Label",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Thailand, Malaysia, China",
+              "SUP_CTRY_CD_SPICE": "China, Malaysia, Thailand",
+              "CMPNT_WT_VAL": null,
+              "MSR_UOM_TXT": null,
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "Facestock: Global Co-ex Adhesive: S692N Liner: BG40, Facestock: PP Pearlized White 60micron Adhesive: SR3013 Liner: BG40Wh Imp FSC, Facestock: Global MDO - White Adhesive: S692N Liner: BG40 Wh IMP, Facestock: PP Solid White TC60 Adhesive: RP37 Liner: WG65, Facestock: PP Pearlized White 60 micron Adhesive: SR3013N Liner: BG33Wh Imp FSC, Facestock: White PE85 Gloss Adhesive: RP37 Liner type 1: HD70 WHITE glassine Liner type 2: WG65(BP) glassine",
+                  "CMPNT_MATL_CD_SPLIT": "",
+                  "CMPNT_MATL_CD": "",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": null,
+                  "PCR_CONTENT": null
+                }
+              ]
+            },
+            {
+              "CHILD_NM": "PC-0011851",
+              "CHILD_RVSN_NBR": "8",
+              "PC_DESC": "Sticker for JB Promotion Products (Material : PP 40 Matt White)-TH",
+              "PC_STS_CD": "Effective",
+              "PC_STAGE_CD": "Commercial",
+              "PC_TEMPL_CD": "Labels / Leaflets / Booklets",
+              "CMPNT_FORM_CD": "Label",
+              "COLOR_CD_CLEAN": "",
+              "COLOR_CD_CLEAN_CLEAN": "",
+              "SUP_CTRY_CD": "Thailand",
+              "SUP_CTRY_CD_SPICE": "Thailand",
+              "CMPNT_WT_VAL": null,
+              "MSR_UOM_TXT": null,
+              "FINISHING_PROCESS_SPICE": null,
+              "MATERIALS": [
+                {
+                  "MATL_TYPE_SPICE": "Unknown",
+                  "MATL_TYPE_2_TXT": "BG40, S692N, PP 40 Matt White (BW0259), Printing ink",
+                  "CMPNT_MATL_CD_SPLIT": "",
+                  "CMPNT_MATL_CD": "",
+                  "MATL_TYPE_2_TXT_SPICE": "Unknown",
+                  "CMPNT_MATL_CD_SPICE": "Unknown",
+                  "INCOMPLETE_SPICE_MAT_MAP": "1",
+                  "CMPNT_SUB_MATL_CD": "Virgin",
+                  "CONVERSION_PROCESS_SPICE": "Unknown",
+                  "MATL_PCT_VAL": "100.0",
+                  "PCR_CONTENT": "0.0"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+]
+    

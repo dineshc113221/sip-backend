@@ -1,0 +1,16 @@
+[
+    {
+        "_id": {
+          "$oid": "66967c4f2d1ebdf2bf882fdf"
+        },
+        "Product Segment": "1.1 Hair - Wash",
+        "Product Sub-Segment": "1.1.1 Solid (bars, powder, flakes) NO DRY SHAMPOO",
+        "Use Dose / g": 0.54,
+        "Use Scenario": "Rinse off",
+        "Water Use / L": 15,
+        "Starting Temperature / C": 15,
+        "Finishing Temperature / C": 38,
+        "Evaporated Water / %": 5,
+        "Density / g/cm3": 1
+      }
+]

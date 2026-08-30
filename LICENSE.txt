@@ -1,0 +1,5 @@
+Copyright 2023 Kenvue. All rights reserved.
+
+This code contains information which is the proprietary property of Kenvue.
+
+No part of this code may be reproduced, stored or transmitted in any form without the prior written permission of Kenvue.

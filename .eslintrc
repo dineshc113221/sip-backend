@@ -1,0 +1,60 @@
+{
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  },
+  "env": {
+    "es2022": true,
+    "jest": true,
+    "node": true
+  },
+  "ignorePatterns": ["dist/"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "prettier" 
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "project": ["./tsconfig.json", "./tsconfig.eslint.json"],
+    "tsconfigRootDir": "./"
+  },
+  "plugins": ["@typescript-eslint"],
+  "root": true,
+  "rules": {
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "ignoreStrings": true
+      }
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": "off",
+    "import/prefer-default-export": "off",
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "object-curly-newline": "off",
+    "linebreak-style": 0
+  }
+}

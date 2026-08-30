@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sip-bs-ms
+  title: "Sustainable Innovation Profiler - BS MS"
+  description: "Sustainable Innovation Profiler - BS MS"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    sonarqube.org/project-key: "rdx-sip-bs-ms"
+    nexus-repository-manager/docker.image-name: asx-jfux-docker/rdx-sip-bs-ms

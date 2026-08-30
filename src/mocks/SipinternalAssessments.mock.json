@@ -1,0 +1,392 @@
+[
+    {
+        "_id": {
+          "$oid": "66f3bb1f06a36e538f1c1e29"
+        },
+        "productId": "66f3b95571433e9703a043fc",
+        "__v": 0,
+        "formula_input_output": {
+          "input": {
+            "baseline": [
+              {
+                "assessmentId": "66f3b97e71433e9703a04424",
+                "distribution": {
+                  "productId": "66f3b95571433e9703a043fc",
+                  "assessmentId": "66f3b97e71433e9703a04424",
+                  "assessmentType": "baseline",
+                  "formulaId": "",
+                  "fg_spec": "FG-0047051",
+                  "fg_revision": "3",
+                  "sales_country": "Brazil",
+                  "production_country": "Brazil",
+                  "net_content": 45,
+                  "formula_id": "",
+                  "ConsumablesUsed": 0,
+                  "productSegment": "2.3 Face Care - UV Protect",
+                  "productSubSegment": "2.3.1 Sunscreen",
+                  "claimedVolumed": 45,
+                  "useDose": "0.3",
+                  "productEvaluation": 80,
+                  "user": {
+                    "name": "Kadam, Poonam [Non-Kenvue]",
+                    "email": "PKadam04@kenvue.com"
+                  },
+                  "packaging_level": [
+                    {
+                      "packaging_level": "Primary",
+                      "isrecyclable": true,
+                      "recyclability_status": "Recycle Ready",
+                      "productEvaluation": 80,
+                      "components": [
+                        {
+                          "pc_nm": "PC-058652",
+                          "description": "BOTTLE THREADED -  LPM LHS - 28/410 - 300 ml - PET - Transparent",
+                          "color": "Blue",
+                          "opacity": "Opaque",
+                          "component_type": "Bottle",
+                          "recyclability_status": "Recycle Ready",
+                          "weight": "22.0",
+                          "opacifier": "transplant",
+                          "stage": "Commercial",
+                          "state": "Effective",
+                          "template": "Bottles/ Jars",
+                          "isEdited": true,
+                          "isDataComplete": true,
+                          "material": [
+                            {
+                              "material_name": "Steel",
+                              "material_type": "PCR",
+                              "converting_process": "Deep drawing, steel",
+                              "material_pct": "100.0",
+                              "productEnvironmentalFootPrint": "0",
+                              "carbonFootPrint": "0",
+                              "virginPlasticValue": "0",
+                              "pcr_content": "100.0"
+                            }
+                          ],
+                          "finishing_process": "Acid etching, glass substrate"
+                        }
+                      ]
+                    },
+                    {
+                      "packaging_level": "Secondary",
+                      "isrecyclable": false,
+                      "recyclability_status": "N/A",
+                      "productEvaluation": 0,
+                      "components": []
+                    }
+                  ]
+                },
+                "packproduction": {
+                  "productId": "66f3b95571433e9703a043fc",
+                  "assessmentId": "66f3b97e71433e9703a04424",
+                  "assessmentType": "baseline",
+                  "formulaId": "",
+                  "fg_spec": "FG-0047051",
+                  "fg_revision": "3",
+                  "sales_country": "Brazil",
+                  "production_country": "Brazil",
+                  "net_content": 45,
+                  "formula_id": "",
+                  "ConsumablesUsed": 0,
+                  "productSegment": "2.3 Face Care - UV Protect",
+                  "productSubSegment": "2.3.1 Sunscreen",
+                  "claimedVolumed": 45,
+                  "useDose": "0.3",
+                  "productEvaluation": 80,
+                  "user": {
+                    "name": "Kadam, Poonam [Non-Kenvue]",
+                    "email": "PKadam04@kenvue.com"
+                  },
+                  "packaging_level": [
+                    {
+                      "packaging_level": "Primary",
+                      "isrecyclable": true,
+                      "recyclability_status": "Recycle Ready",
+                      "productEvaluation": 80,
+                      "components": [
+                        {
+                          "pc_nm": "PC-058652",
+                          "description": "BOTTLE THREADED -  LPM LHS - 28/410 - 300 ml - PET - Transparent",
+                          "color": "Blue",
+                          "opacity": "Opaque",
+                          "component_type": "Bottle",
+                          "recyclability_status": "Recycle Ready",
+                          "weight": "22.0",
+                          "opacifier": "transplant",
+                          "stage": "Commercial",
+                          "state": "Effective",
+                          "template": "Bottles/ Jars",
+                          "isEdited": true,
+                          "isDataComplete": true,
+                          "material": [
+                            {
+                              "material_name": "Steel",
+                              "material_type": "PCR",
+                              "converting_process": "Deep drawing, steel",
+                              "material_pct": "100.0",
+                              "productEnvironmentalFootPrint": "0",
+                              "carbonFootPrint": "0",
+                              "virginPlasticValue": "0",
+                              "pcr_content": "100.0"
+                            }
+                          ],
+                          "finishing_process": "Acid etching, glass substrate"
+                        }
+                      ]
+                    },
+                    {
+                      "packaging_level": "Secondary",
+                      "isrecyclable": false,
+                      "recyclability_status": "N/A",
+                      "productEvaluation": 0,
+                      "components": []
+                    }
+                  ]
+                },
+                "packagingeol": {
+                  "productId": "66f3b95571433e9703a043fc",
+                  "assessmentId": "66f3b97e71433e9703a04424",
+                  "assessmentType": "baseline",
+                  "formulaId": "",
+                  "fg_spec": "FG-0047051",
+                  "fg_revision": "3",
+                  "sales_country": "Brazil",
+                  "production_country": "Brazil",
+                  "net_content": 45,
+                  "formula_id": "",
+                  "ConsumablesUsed": 0,
+                  "productSegment": "2.3 Face Care - UV Protect",
+                  "productSubSegment": "2.3.1 Sunscreen",
+                  "claimedVolumed": 45,
+                  "useDose": "0.3",
+                  "productEvaluation": 80,
+                  "user": {
+                    "name": "Kadam, Poonam [Non-Kenvue]",
+                    "email": "PKadam04@kenvue.com"
+                  },
+                  "packaging_level": [
+                    {
+                      "packaging_level": "Primary",
+                      "isrecyclable": true,
+                      "recyclability_status": "Recycle Ready",
+                      "productEvaluation": 80,
+                      "components": [
+                        {
+                          "pc_nm": "PC-058652",
+                          "description": "BOTTLE THREADED -  LPM LHS - 28/410 - 300 ml - PET - Transparent",
+                          "color": "Blue",
+                          "opacity": "Opaque",
+                          "component_type": "Bottle",
+                          "recyclability_status": "Recycle Ready",
+                          "weight": "22.0",
+                          "opacifier": "transplant",
+                          "stage": "Commercial",
+                          "state": "Effective",
+                          "template": "Bottles/ Jars",
+                          "isEdited": true,
+                          "isDataComplete": true,
+                          "material": [
+                            {
+                              "material_name": "Steel",
+                              "material_type": "PCR",
+                              "converting_process": "Deep drawing, steel",
+                              "material_pct": "100.0",
+                              "productEnvironmentalFootPrint": "0",
+                              "carbonFootPrint": "0",
+                              "virginPlasticValue": "0",
+                              "pcr_content": "100.0"
+                            }
+                          ],
+                          "finishing_process": "Acid etching, glass substrate"
+                        }
+                      ]
+                    },
+                    {
+                      "packaging_level": "Secondary",
+                      "isrecyclable": false,
+                      "recyclability_status": "N/A",
+                      "productEvaluation": 0,
+                      "components": []
+                    }
+                  ]
+                },
+                "_id": {
+                  "$oid": "66f3bb1e71433e9703a044d9"
+                }
+              }
+            ]
+          },
+          "output": {
+            "baseline": [
+              {
+                "assessmentId": "66f3b97e71433e9703a04424",
+                "distribution": {
+                  "error": false,
+                  "Claimed_Volume_Of_Finished_Product": 45,
+                  "rate_of_restitution": 0.8,
+                  "Use_Dose": 0.3,
+                  "SPICE_distribution_PRODUCT": {
+                    "climate_change": 43.400949957382636,
+                    "ozone_depletion": 838.3593303673639,
+                    "ionising_radiation": 2065.9939176280923,
+                    "photochemical_ozone_formation": 248.68875673355825,
+                    "particulate_matter": 2038.1390016859486,
+                    "human_toxicity_non_cancer": 310.07547819839635,
+                    "human_toxicity_cancer": 16.636590422255548,
+                    "acidification": 306.52209384461094,
+                    "eutrophication_freshwater": 6107.142645487453,
+                    "eutrophication_marine": 73.0736214924517,
+                    "eutrophication_terrestrial": 784.0592479113456,
+                    "ecotoxicity_freshwater": 206.14960073659668,
+                    "land_use": 125.04389609034621,
+                    "water_scarcity": 23167.238203164772,
+                    "resource_use_fossil": 568.8958094004355,
+                    "resource_use_minerals_metals": 108.59634952876183
+                  },
+                  "rate_of_restitution_dose_mass": 0.008333333333333333,
+                  "SPICE_distribution_FINAL": {
+                    "climate_change": 0.3616745829781886,
+                    "ozone_depletion": 6.986327753061365,
+                    "ionising_radiation": 17.216615980234103,
+                    "photochemical_ozone_formation": 2.0724063061129856,
+                    "particulate_matter": 16.98449168071624,
+                    "human_toxicity_non_cancer": 2.5839623183199696,
+                    "human_toxicity_cancer": 0.13863825351879622,
+                    "acidification": 2.5543507820384246,
+                    "eutrophication_freshwater": 50.892855379062105,
+                    "eutrophication_marine": 0.6089468457704308,
+                    "eutrophication_terrestrial": 6.53382706592788,
+                    "ecotoxicity_freshwater": 1.717913339471639,
+                    "land_use": 1.0420324674195518,
+                    "water_scarcity": 193.06031835970643,
+                    "resource_use_fossil": 4.740798411670296,
+                    "resource_use_minerals_metals": 0.9049695794063486,
+                    "total": 308.40012910541475
+                  },
+                  "productId": "66f3b95571433e9703a043fc",
+                  "assessmentId": "66f3b97e71433e9703a04424",
+                  "assessmentType": "baseline"
+                },
+                "packproduction": {
+                  "error": false,
+                  "Claimed_Volume_Of_Finished_Product": 45,
+                  "rate_of_restitution": 0.8,
+                  "Use_Dose": 0.3,
+                  "SPICE_packaging_production_emissions": {
+                    "climate_change": 3.131777615765041,
+                    "ozone_depletion": 89.58787849959967,
+                    "ionising_radiation": 243.24550326538434,
+                    "photochemical_ozone_formation": 15.173868746947624,
+                    "particulate_matter": 278.1623659226492,
+                    "human_toxicity_non_cancer": 37.038981825348756,
+                    "human_toxicity_cancer": 11.045205406310277,
+                    "acidification": 17.259800074397308,
+                    "eutrophication_freshwater": 1164.267462148045,
+                    "eutrophication_marine": 4.656867369115333,
+                    "eutrophication_terrestrial": 43.10362080005638,
+                    "ecotoxicity_freshwater": 17.50776838158638,
+                    "land_use": 78.01097825101866,
+                    "water_scarcity": 1013.9944341136647,
+                    "resource_use_fossil": 39.68041396432519,
+                    "resource_use_minerals_metals": 21.91370047337099
+                  },
+                  "SPICE_packaging_production_PRODUCT": {
+                    "climate_change": 112.74399416754147,
+                    "ozone_depletion": 3225.163625985588,
+                    "ionising_radiation": 8756.838117553836,
+                    "photochemical_ozone_formation": 546.2592748901145,
+                    "particulate_matter": 10013.845173215372,
+                    "human_toxicity_non_cancer": 1333.4033457125552,
+                    "human_toxicity_cancer": 397.62739462717,
+                    "acidification": 621.3528026783032,
+                    "eutrophication_freshwater": 41913.628637329624,
+                    "eutrophication_marine": 167.647225288152,
+                    "eutrophication_terrestrial": 1551.7303488020298,
+                    "ecotoxicity_freshwater": 630.2796617371098,
+                    "land_use": 2808.395217036672,
+                    "water_scarcity": 36503.79962809193,
+                    "resource_use_fossil": 1428.494902715707,
+                    "resource_use_minerals_metals": 788.8932170413557
+                  },
+                  "rate_of_restitution_dose_mass": 0.008333333333333333,
+                  "SPICE_packaging_production_FINAL": {
+                    "climate_change": 0.9395332847295123,
+                    "ozone_depletion": 26.8763635498799,
+                    "ionising_radiation": 72.9736509796153,
+                    "photochemical_ozone_formation": 4.552160624084287,
+                    "particulate_matter": 83.44870977679476,
+                    "human_toxicity_non_cancer": 11.111694547604626,
+                    "human_toxicity_cancer": 3.3135616218930832,
+                    "acidification": 5.177940022319193,
+                    "eutrophication_freshwater": 349.28023864441354,
+                    "eutrophication_marine": 1.3970602107346,
+                    "eutrophication_terrestrial": 12.931086240016915,
+                    "ecotoxicity_freshwater": 5.252330514475915,
+                    "land_use": 23.4032934753056,
+                    "water_scarcity": 304.19833023409944,
+                    "resource_use_fossil": 11.904124189297558,
+                    "resource_use_minerals_metals": 6.574110142011297,
+                    "total": 923.3341880572757
+                  },
+                  "productId": "66f3b95571433e9703a043fc",
+                  "assessmentId": "66f3b97e71433e9703a04424",
+                  "assessmentType": "baseline"
+                },
+                "packagingeol": {
+                  "error": false,
+                  "Claimed_Volume_Of_Finished_Product": 45,
+                  "rate_of_restitution": 0.8,
+                  "Use_Dose": 0.3,
+                  "SPICE_pack_EOL_PRODUCT": {
+                    "climate_change": -7.058575099276438,
+                    "ozone_depletion": -158.3644185842771,
+                    "ionising_radiation": 351.538291831127,
+                    "photochemical_ozone_formation": -30.347777348307314,
+                    "particulate_matter": -470.89375273575047,
+                    "human_toxicity_non_cancer": -53.6688455003898,
+                    "human_toxicity_cancer": 51.90133576172873,
+                    "acidification": -31.977453146377236,
+                    "eutrophication_freshwater": -4131.415801269912,
+                    "eutrophication_marine": -2.5837894025401367,
+                    "eutrophication_terrestrial": -53.36034436146932,
+                    "ecotoxicity_freshwater": -1.6754821989816646,
+                    "land_use": -61.640841578826475,
+                    "water_scarcity": -858.524931195504,
+                    "resource_use_fossil": -64.55822180780991,
+                    "resource_use_minerals_metals": -124.32428852199654
+                  },
+                  "rate_of_restitution_dose_mass": 0.008333333333333333,
+                  "SPICE_pack_EOL_FINAL": {
+                    "climate_change": -0.05882145916063698,
+                    "ozone_depletion": -1.319703488202309,
+                    "ionising_radiation": 2.929485765259392,
+                    "photochemical_ozone_formation": -0.2528981445692276,
+                    "particulate_matter": -3.924114606131254,
+                    "human_toxicity_non_cancer": -0.447240379169915,
+                    "human_toxicity_cancer": 0.43251113134773944,
+                    "acidification": -0.2664787762198103,
+                    "eutrophication_freshwater": -34.4284650105826,
+                    "eutrophication_marine": -0.02153157835450114,
+                    "eutrophication_terrestrial": -0.4446695363455777,
+                    "ecotoxicity_freshwater": -0.013962351658180537,
+                    "land_use": -0.5136736798235539,
+                    "water_scarcity": -7.1543744266292,
+                    "resource_use_fossil": -0.5379851817317493,
+                    "resource_use_minerals_metals": -1.0360357376833045,
+                    "total": -47.05795745965468
+                  },
+                  "productId": "66f3b95571433e9703a043fc",
+                  "assessmentId": "66f3b97e71433e9703a04424",
+                  "assessmentType": "baseline"
+                },
+                "_id": {
+                  "$oid": "66f3bb1e71433e9703a044d8"
+                }
+              }
+            ]
+          }
+        },
+        "isDelete": false
+      }
+]

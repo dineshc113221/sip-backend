@@ -1,0 +1,18 @@
+{
+  // VSCode Jest enables testing within VSCode's Testing Activity Bar
+  // Snyk scans for code and dependency vulnerabilities, with remediation guidance
+  // SonarLint highlights bugs and security vulnerabilities as you write code, with remediation guidance
+  // Hadolint shows Dockerfile inline compliance suggestions
+  // Spectral is a linter for OpenAPI files
+  // NPM Outdated shows package.json inline version suggestions
+  // Markdown linting for documentation consistency
+  "recommendations": [
+    "Orta.vscode-jest",
+    "dbaeumer.vscode-eslint",
+    "sonarsource.sonarlint-vscode",
+    "exiasr.hadolint",
+    "stoplight.spectral",
+    "mskelton.npm-outdated",
+    "davidanson.vscode-markdownlint"
+  ]
+}
